@@ -1,0 +1,192 @@
+                                  
+                                  /* banner start */
+
+.back-image{
+  background-image: linear-gradient(rgba(224, 30, 30, 0.8),rgba(170, 159, 159, 0.8)), url('..//images/Business.jpeg');
+  width: 100%;
+  color: white;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.banner-text{
+  width: 100%;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 60px;
+}
+.banner-text01 {
+  background-color: #FF5F1D;
+  text-align: center;  
+  padding: 60px;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+                        /* banner End */
+
+                        /* find-jobs start */
+.search-jobs{
+  width: 100%;
+}
+.search-jobs01{
+  width: 90%;
+  margin: auto;
+}
+
+                          /* slect-categories start */
+select {
+  width: 70%;
+  padding: 16px 20px;
+  outline: none;
+  display: block;
+  z-index: 100;
+  border: 1px solid #000066;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 22px 30px 4px;
+}
+                       /* slect-categories ENd */
+
+                           /* search-jobs start */
+.lot-job{
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.business-analyst-box{
+  box-shadow: rgb(0 0 0 / 30%) 0px 22px 30px 4px;
+  border: 1px solid #000066;
+  border-radius: 10px;
+  margin-top: 10%;
+}
+.business-analyst{
+  padding: 10px;
+}
+.business-analyst .far{
+  float: right;
+  font-size: 1.8rem;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.business-analyst p{
+  font-size: 1.4rem;
+  color: #FF5F1D;
+  font-weight: bold;
+}
+.locations{
+  display: flex;
+  margin-top: 20px; 
+}
+.locations p{
+  color: black;
+  font-size: 1rem;  
+  font-weight: lighter;
+  margin-left: 10px;
+}
+.locations span{
+  margin-left: 20px;
+}
+.locations .fas{
+  color: #FF5F1D;
+  font-size: 1.4rem; 
+}
+.added{
+  color: teal;
+  font-size: 1rem;
+  float: right;
+  margin-top: 20px;
+}
+.job-description{
+  border-top: 1px solid #000066;
+}
+.btn{
+  width: 100%;
+  background: none;
+  color: #FF5F1D;
+  cursor: pointer;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #000066;;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn2::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.btn2:hover::before{
+  height: 180%;
+ }
+                             /* search-jobs END */
+
+                              /* find-jobs ENd */
+
+                            /* Responsive Start */
+
+                            /* 992 Responsive Start */
+
+@media (max-width: 992px) {
+  .banner-text{
+    font-size: 3rem;
+  }
+  .banner-text01{
+    padding: 40px;
+  }
+  select{
+    width: 100%;
+  }
+}
+                         /* 700 Responsive Start */
+
+ @media (max-width: 700px) {
+  .banner-text{
+    font-size: 2.5rem;
+  }
+ }
+                         /* 768 Responsive Start */
+
+@media (max-width: 768px) {
+.lot-job{
+  padding-top: 10%;
+}
+}
+                 /* 600 Responsive Start */
+
+@media (max-width: 600px) {
+  .banner-text01{
+    padding: 20px;
+  }
+}
+
+                     /* 480 Responsive Start */
+
+@media (max-width: 480px) {
+  .banner-text{
+    font-size: 2.2rem;
+  }
+  .banner-text01{
+    padding: 10px;
+  }
+}
+
+                            /* 350 Responsive Start */
+
+@media (max-width: 350px) {
+  select{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+  .business-analyst-box{
+    margin-top: 15%;
+  }
+}
+
+
