@@ -7,18 +7,11 @@
    <link rel="stylesheet" type="text/css" href="css/aply.css"> 
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" type="text/css" href="fontswesome/css/all.css">
-   
-      <!------------- Bootstarp Links ---------------> 
-      
-    <!-- jQuery library -->
-    <link rel="stylesheet" type="text/css" href="libraries/bootstrap.min.css">
-        <script type="text/javascript" src="libraries/popper.min.js"></script>
-        <script type="text/javascript" src="libraries/bootstrap.min.js"></script>
-        <!-- slick slider -->
-        <script type="text/javascript" src="libraries/jquery.min.js"></script>
-        <script type="text/javascript" src="libraries/jquery-2.2.0.js"></script> 
-        <script type="text/javascript" src="libraries/slick.js"></script> 
 
+   <!------------- Bootstarp Links ---------------> 
+   <link rel="stylesheet" type="text/css" href="libraries1/bootstrap.min.css">
+   <script type="text/javascript" src="libraries1/popper.min.js"></script>
+   <script type="text/javascript" src="libraries1/bootstrap.min.js"></script>
   </head>
 <body>
     <div class="back-image">
@@ -50,7 +43,7 @@
             Registration Form.
             <p>Please, fill the form in the following information in ALL CAPS (Capital letters)</p>
         </div>
-        <form class="apply-form">
+        <form>
             
             <!-------------------- name + grnder STart ------------------->
             <div class="row">
@@ -133,7 +126,9 @@
             <!-------------------- jobs Check-box start ------------------->
                 <div class="row mt-3">
                     <div class="col-md-12">
-                        <label for="fname">What kind of jobs are you looking for?</label>
+                        <div class="kind">
+                            <p>What kind of jobs are you looking for?</p>
+                        </div>
                         <ul class="ks-cboxtags">
                             <div class="custom-control custom-checkbox">
                                 <li><input  type="checkbox" class="custom-control-input"  id="checkboxOne" value="Cotton Candy">
@@ -344,7 +339,7 @@
                 <div class="col-md-12">
                     <p>Thank you for filling up this form, we will soon assign you a job according to your requirements. Please, tell your friends & family about us as we are always searching for responsible,
                     reliable and dedicated employees. Thank you! Western Staffing Services.</p>
-                    <button class="btn btn4 mb-2">Submit</button>
+                    <button class="btn btn4">Submit</button>
                 </div>
             </div>
         </form>

@@ -9,11 +9,9 @@
    <link rel="stylesheet" type="text/css" href="fontswesome/css/all.css">
    
    <!------------- Bootstarp Links ---------------> 
-   
-   <link rel="stylesheet" type="text/css" href="libraries1/bootstrap.min_3.css">
-   <script type="text/javascript" src="libraries1/jquery.min.js"></script>
-   <script type="text/javascript" src="libraries1/bootstrap.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="libraries1/bootstrap.min.css">
    <script type="text/javascript" src="libraries1/popper.min.js"></script>
+   <script type="text/javascript" src="libraries1/bootstrap.min.js"></script>
   </head>
 <body>
   <div class="back-image">

@@ -1,27 +1,4 @@
-<?php
-  include('s_connection.php');
 
-  if(isset($_POST['checking_add'])){
-
-    $fname = $_POST['contact_username'];
-    $lname = $_POST['contact_email'];
-    $class = $_POST['contact_phone'];
-	$whatsno = $_POST['contact_whatsapp'];
-    $section = $_POST['contact_msg'];
-
-    $query = "INSERT INTO pos_contactuss (contact_username,contact_email,contact_phone,contact_whatsapp,contact_msg) VALUES ('$fname','$lname','$class','$whatsno','$section')";
-    $query_run = mysqli_query($con, $query);
-
-    if($query_run)
-    {
-      echo $return  = "SuccessfullyStored";
-    }
-    else
-    {
-      echo $return  = "Something Went Wrong.!";
-    }
-  }
-?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -32,11 +9,10 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" type="text/css" href="fontswesome/css/all.css">
    
-    <!------------- Bootstarp Links ---------------> 
-   <link rel="stylesheet" type="text/css" href="libraries1/bootstrap.min_3.css">
-   <script type="text/javascript" src="libraries1/jquery.min.js"></script>
-   <script type="text/javascript" src="libraries1/bootstrap.min.js"></script>
+   <!------------- Bootstarp Links ---------------> 
+    <link rel="stylesheet" type="text/css" href="libraries1/bootstrap.min.css">
    <script type="text/javascript" src="libraries1/popper.min.js"></script>
+   <script type="text/javascript" src="libraries1/bootstrap.min.js"></script>
   
   </head>
 <body>
@@ -85,7 +61,7 @@
 					<div class="grid grid-3">
 						<button class="btn-grid bttn" type="submit" name="submit" onclick="sendEmail()" value="Send An Email"/>
 							<span class="back">
-							  <i class="fas fa-envelope-open-text" style="font-size: 20px;"></i>
+							<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
 							</span>
 							<span class="front">SUBMIT</span>
 						</button>
@@ -165,7 +141,7 @@
             'contact_username': username,
             'contact_email': useremail,
             'contact_phone': userphone,
-			      'contact_whatsapp': userwhatsapp,
+			'contact_whatsapp': userwhatsapp,
             'contact_msg': usermsg,
           },
           success: function (response) {
