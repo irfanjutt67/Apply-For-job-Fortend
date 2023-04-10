@@ -79,16 +79,7 @@
     border: 1px solid #FF5F1D;
     outline: #FF5F1D;
   }
-.apply-form select:focus,
-.apply-form input:focus{
-  color:white;
-  background: #FF5F1D;
-}
-
-.apply-form select:focus,
-.apply-form input:focus {
-  transform: scale(1.03);
-}
+  
                                /* Check-box Start */
   
   .general{
