@@ -7,7 +7,7 @@
   
     <div class="footer">
         <div class="footer01">
-            <div class="container-fluid">
+            <div class="container-fluid mt-4">
                 <div class="row p-2">
                     <div class="col-lg-3 col-md-3 mt-2">
                         <div class="footer-logo">
@@ -17,14 +17,13 @@
                     <div class="col-lg-3 col-md-3  mt-2">
                         <div class="footer-content">
                             <a href="index.php">Home</a><hr>
-                            <a href="apply.php">How to apply</a><hr>
+                            <a href="aply.php">How to apply</a><hr>
                             <a href="viewjob.php">View all job</a><hr>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 mt-2">
                         <div class="log-in">
-                            <a href="employmentresources.php">Employment resources</a><hr>
-                            <a href="#">Help</a><hr>
+                            <a href="contact.php">Contact Us</a><hr>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 mt-2">
