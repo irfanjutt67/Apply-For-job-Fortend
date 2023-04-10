@@ -153,6 +153,13 @@ ul {
   background-size: 15px 15px;
 }
 
+.my-form *:required {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);  
+}
+
+.my-form select {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/down.svg);
+}
 
 .my-form *:disabled {
   cursor: default;
@@ -206,9 +213,6 @@ ul {
 
 /* MQ
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-                            /* 968 Responsive Start */
-
 @media (max-width: 968px) {
   .banner-text{
     font-size: 3rem;
@@ -218,6 +222,7 @@ ul {
   }
   
 } 
+
                      /* 700 Responsive Start */
 
 @media (max-width: 700px) {
@@ -225,6 +230,7 @@ ul {
     font-size: 2.5rem;
   }
 }
+                    /* 600 Responsive Start */
 @media screen and (min-width: 600px) {
   .banner-text01{
     padding: 20px;
@@ -262,7 +268,8 @@ ul {
     top: 3px;
   }
 }
-                   /* 480 Responsive Start */
+
+                     /* 480 Responsive Start */
 
 @media (max-width: 480px) {
   .banner-text{
