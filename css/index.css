@@ -16,11 +16,9 @@ html,body{
 /* Slider */
 
 
-.slide img {
+.slick-slide img {
   width: 100%;
-  height: 460px;
 }
-
 .slick-slider
 {
   position: relative;
@@ -128,241 +126,164 @@ html,body{
   display: none;
 }
 .customer-logoss .slid img {
-  height: 180px;
+  height: 180;
   width: 100%;
 }
 
                    /* Banner END */
 
-.introduction{
+                    /* Job-Content Start */
+ .industry{
+   width: 100%;
+   margin-top: 7%;
+}
+.industry01{
+    width: 90%;
+    margin: auto;
+}
+.nav-tag a .fas{
+    font-size: 1.5rem;
+}
+.nav-tag a{
+    color: #FF5F1D;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.nav-tag a:hover{
+    color: #000066;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.nav-tag a .fa-long-arrow-alt-right{
+    float: right;
+    color: #FF5F1D;
+    font-size: 2rem;
+}
+                       /* Job-Content END */
+
+                        /* our-partner Start */
+                        
+.partner{
   width: 100%;
-  background-color: #FFCFBE;
-  text-align: center;
+  margin-top: 5%;
 }
-.intro{
-  width: 60%;
-  color: #000066;
-  font-weight: bold;
+.partner01{
+  width: 90%;
   margin: auto;
-  padding: 20px;
 }
-.introduction h1{
+.partner01 p{
   font-size: 3rem;
   font-weight: bold;
   color: #FF5F1D;
   text-align: center;
 }
-                        /* our-partner Start */
-.our-partners{
+.our-partners img{
   width: 100%;
-  background-color: white;
-}                        
-.partner{
-  width: 95%;
-  padding: 10px;
-  margin: auto;
+  height: 120px;
 }
-.partner h2{
-  font-weight: bold;
-  color: #FF5F1D;
-  text-align: center;
-}
-                    /* our-partner END */
-
-                     /* Job-Content Start */
-.jobs-gallery{
-  width: 100%;
-}
-.job-content{
-  width: 95%;
-  margin: auto;
-  padding: 15px;
-}
-.job-content-grid{
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 38px;
-}
-.job-content h2{
-  font-weight: bold;
-  color: #FF5F1D;
-}
-
-                    /* Job-Content End */
-        
-                                    /* Heading-underline Style Start */
-
-.ser-t {
-  text-align: center;
-  margin: 0 auto;
-  width: 18%;
-  margin-top: 15px;
-  position: relative;
-}
-.ser-t b{
-  width: 100%;
-  height: 2px;
-  display: block;
-  background: #FF5F1D;
-  margin-bottom: 3px;
-}
-.ser-t b.line{
-  width: 80%;
-  margin:0 auto;
-}
-.ser-t  span{
-  width: 40px;
-  height: 30px;
-  background:#FFEFEC;
-  display: block;
-  position: absolute;
-  top: -7px;
-  left: 42%;  
-}
-.ser-t  span i{
-  width: 20px;
-  height: 20px;
-  display: block;
-  border: 2px solid #FF5F1D;
-  -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
-  -moz-transform: rotate(45deg) translate3d(0, 0, 0);
-  -ms-transform: rotate(45deg) translate3d(0, 0, 0);
-  -o-transform: rotate(45deg) translate3d(0, 0, 0);
-  transform: rotate(45deg) translate3d(0, 0, 0);
-  margin-left: 0.7em;
-}
-
-                               /* Heading-underline Style End */
-
-                               /* Jobs title start */
-
-.box a > article {
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
-  text-align: center;
-  }
-.box a > article img {
-  max-width: 100%;
-}
-
-.box a > article img {
-  font-size: 48px;
-  line-height: 70px;
-  height: 80px;
-  width: 80px;
-  border: 6px solid #FFEFEC;
-  border-radius: 50%;
-  background-color: white;
-  text-align: center;
-  color: white;
-  margin-top: -36px;
-}
-.box a .text {
-  padding: 5px;
-  min-height:70px;
-  max-height:70px;
-  text-decoration: none;
-  color:#FF5F1D;
-}
-.box a .text:hover {
-  color: #000066;
-}
-.box a:hover {
-  text-decoration: none;
-}
-.box a .btn {
-  margin-top: 20px;
-}
-
-
-                                          /* Jobs title End */
-
- 
-
-
- /* COntact-Form Start */                               
-.contact-form{
-  width: 90%;
-  margin: auto;
-}
-.dbox {
-  text-align: center;
-  align-items: center;
-}
-.icon{
-  width: 40px;
-  height: 40px;
-  margin: auto;
-  color: #000066;
-  background-color: #FF5F1D;
-  border: 1px solid #FF5F1D;
-  border-radius: 50%;
-}
-.text a{
-  color: #FF5F1D;
-}
-.text a:hover{
-  color: #000066;
-  transition: 0.3s ease-in-out;
-}
-                                   /* COntact-Form ENd */
-
-
-                                  
-
-
-
-
-
-
-
-
-
-
-                        /* Responsive Start */
- 
-                        /* 968px Start */
-
-                        
-@media (max-width: 992px) {
-  .banner-text{
-    font-size: 3rem;
-  }
-  .banner-text01{
-    padding: 40px;
-  }
-  .job-content-grid{
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .ser-t {
-    width: 30%;
-  }
-  select{
+ .post-slider{
     width: 100%;
-  }
+    margin-top: 7%;
 }
+.post-slider01{
+    width: 90%;
+    margin: auto;
+} 
+
+                    /* our-partner END */
+                  
+                    /* Job-advice Start */
+  .job-advice{
+    width: 100%;
+    background-color: rgb(232, 244, 248);
+    margin-top: 5%;
+  }
+  .job-advice01{
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+  }
+  .job-cards{
+    background: transparent;
+    border: 1px solid rgb(232, 244, 248);
+    font-size: 25px;
+    color: #FF5F1D;
+    font-weight: bold;  
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 30%) 0px 22px 30px 4px;
+    overflow: hidden;
+  }
+  .job-cards p{
+    font-size: 1rem;
+    color: black;
+    font-weight: normal;
+  }
+  .fa-file-alt{
+    font-size: 1.4rem;
+    color: #000066;
+  }
+  .job-cards span{
+    font-size: 1rem;
+    color: #000066;
+    font-weight: normal;
+    margin-left: 10px;
+  }
+  .job-cards a{
+    font-size: 1rem;
+    color: #000066;
+    font-weight: normal;
+    float: right;
+    margin-top: 8px;
+  }
+  .job-cards a .fa-long-arrow-alt-right{
+    font-size: 1.4rem;
+    transform: translate(0%,13%);
+  }
+  .job-cards a:hover{
+    text-decoration: none;
+    color: #FF5F1D;
+    transition: 0.4s ease-in-out;
+  }
+  .see-all{
+    margin-top: 15px;
+    margin-bottom: 4em;
+  }
+  .see-all a{
+    float: right;
+    color: #000066;
+    margin-right: 20px;
+  }
+  .see-all a .fa-long-arrow-alt-right{
+    font-size: 1.4rem;
+    transform: translate(0%,13%);
+  }
+  .job-advice01 a:hover{
+    text-decoration: none;
+    color: #FF5F1D;
+    transition: 0.4s ease-in-out;
+  } 
+  
+                           /* Job-advice END */
+
+
+
+                                   /* Responsive Start */
+ 
+                                   /* 968px Start */
+
 @media (max-width: 968px) {
   .industry01{
     width: 100%;
     margin: auto;
     padding: 10px;
   }
- .partner{
+  .partner01{
     width: 100%;
     margin: auto;
     padding: 10px;
   }
-  .banner-text{
-    font-size: 3rem;
-  }
-  .banner-text01{
-    padding: 40px;
-  }
-  .form-grid{
-    grid-template-columns: auto;
-  }
-   /* .post-slider01{
+  .post-slider01{
     width: 100%;
     margin: auto;
     padding: 10px;
@@ -371,100 +292,24 @@ html,body{
     width: 100%;
     margin: auto;
     padding: 10px;
-  } */
-}
-                         /* 800 Responsive Start */
-
-@media (max-width: 800px) {
-  .slide img {
-    height: 280px;
-    width: 100%;
   }
-  .banner-text{
+}
+                 /* 700 Responsive Start */
+
+@media (max-width: 700px) {
+  
+  .partner01 p{
     font-size: 2.5rem;
-  }
-  .job-content-grid{
-    grid-template-columns: 1fr 1fr;
-  }
-  .lot-job{
-    padding-top: 10%;
-  }
-}
-                /* 600 Responsive Start */
-
-@media (max-width: 600px) {
-  .slide img {
-    height: 250px;
-    width: 100%;
-  }
-  .banner-text01{
-    padding: 20px;
-  }
-  .intro{
-    width: 100%;
-  }
-  .ser-t {
-    width: 43%;
-  }
-}
-                  /* 550 Responsive Start */
-@media (max-width: 550px) {
-  .job-content-grid{
-    grid-template-columns: 1fr;
   }
 }
 
                      /* 480 Responsive Start */
 
 @media (max-width: 480px) {
-  .slide img {
-    height: 180px;
-    width: 100%;
-  }
-  .banner-text{
-    font-size: 2.2rem;
-  }
-  .banner-text01{
-    padding: 10px;
-  }
-  .banner-text01 p{
-      width: 100%;
-  }
-  .ser-t {
-    width: 64%;
-}
-  .contact-form{
-    width: 100%;
-    margin: auto;
-  }
-}
-
-                     /* 430 Responsive Start */
-
- @media (max-width: 430px) {
-   .job-content{
-    text-align: center;
-   }
-  .job-content-grid{
-    grid-template-columns: 1fr;
-  }
-  /*.partner01{
-    font-size: 2.2rem;
+  .partner01 p{
+    font-size: 1.8rem;
   }
   .job-cards{
     margin-top: 10px;
-  }*/
-} 
-                         /* 350 Responsive Start */
-
-@media (max-width: 350px) {
-  select{
-    width: 100%;
-    margin: auto;
-    padding: 10px;
-  }
-  .business-analyst-box{
-    margin-top: 15%;
   }
 }
-
